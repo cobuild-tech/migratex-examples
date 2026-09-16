@@ -268,7 +268,7 @@ Clone the repository.
 
 ```bash
 
-git clone https://github.com/Siaro01/Banco\_en\_COBOL.git
+git clone https://github.com/Mel_Roses/Banco_en_COBOL.git
 
 ```
 
