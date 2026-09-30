@@ -5,3 +5,4 @@ Example migrations from [MigrateX](https://cobuildx.ai) by CobuildX AI. Each fol
 | Example | What it shows |
 |---|---|
 | [`angular-react/`](./angular-react) | An Angular 14 todo app and its React 19 rewrite, with identical features, styling and tests |
+| [`ember-react/`](./ember-react) | An Ember 3.24 Octane blogging app (RealWorld API) and its React 18 rewrite, with the same routes, markup and ported acceptance tests |
