@@ -1,0 +1,285 @@
+/* A plain-CSS recreation of the jQuery Mobile 1.3 look (themes a, b, c) the Backbone app used,
+   followed by the app's own rules from app.css and app-phone.css. */
+
+* { box-sizing: border-box; }
+
+html { font-size: 100%; }
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #333;
+  background: #f9f9f9;
+  overflow-x: hidden;
+}
+
+/* ---- Page, header, footer ---- */
+
+.ui-page {
+  min-height: 100vh;
+  padding: 42px 0;
+  background: #f9f9f9;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.ui-page.slide-in { animation: slide-in-from-right 350ms ease-out; }
+.ui-page.slide-in.reverse { animation-name: slide-in-from-left; }
+
+@keyframes slide-in-from-right { from { transform: translateX(100%); } to { transform: none; } }
+@keyframes slide-in-from-left { from { transform: translateX(-100%); } to { transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .ui-page.slide-in { animation: none; }
+}
+
+.ui-bar-a {
+  border: 1px solid #333;
+  background: linear-gradient(#3c3c3c, #111);
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 #000;
+}
+
+.ui-header,
+.ui-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  border-width: 1px 0;
+}
+
+.ui-header { top: 0; }
+.ui-footer { bottom: 0; }
+
+.ui-title {
+  margin: 0.6em 30% 0.8em;
+  font-size: 16px;
+  min-height: 1.1em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ui-footer .ui-title { margin: 0.6em 0.5em 0.8em; }
+
+.ui-content { padding: 15px; }
+
+/* ---- Buttons ---- */
+
+.ui-btn {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.6em 20px;
+  border: 1px solid;
+  border-radius: 1em;
+  font: bold 16px/1.2 Helvetica, Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.ui-btn:focus-visible { outline: none; box-shadow: 0 0 12px #387bbe; }
+
+.ui-btn-a {
+  border-color: #111;
+  background: linear-gradient(#444, #2d2d2d);
+  color: #fff;
+  text-shadow: 0 1px 0 #111;
+}
+
+.ui-btn-b {
+  border-color: #044062;
+  background: linear-gradient(#5f9cc5, #396b9e);
+  color: #fff;
+  text-shadow: 0 1px 0 #194b7e;
+}
+.ui-btn-b:hover { background: linear-gradient(#6facd5, #4272a4); }
+
+.ui-btn-c {
+  border-color: #ccc;
+  background: linear-gradient(#fdfdfd, #eee);
+  color: #222;
+  text-shadow: 0 1px 0 #fff;
+}
+.ui-btn-c:hover { background: linear-gradient(#f6f6f6, #e0e0e0); border-color: #bbb; }
+
+.ui-header .ui-btn-left {
+  position: absolute;
+  top: 0.4em;
+  left: 5px;
+  width: auto;
+  margin: 0;
+  padding: 0.4em 12px 0.4em 30px;
+  font-size: 12.5px;
+}
+
+.ui-btn-icon-notext {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0 0 0 0.5em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+/* Arrow icons in the dark rounded discs jQuery Mobile drew */
+.ui-icon {
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  border-radius: 9px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.ui-btn-icon-notext .ui-icon { left: 2px; }
+.ui-icon::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  width: 6px;
+  height: 6px;
+  border: solid #fff;
+  border-width: 2px 2px 0 0;
+}
+.ui-icon-arrow-r::after { left: 4px; transform: rotate(45deg); }
+.ui-icon-arrow-l::after { left: 7px; transform: rotate(-135deg); }
+
+.ui-hidden-accessible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* ---- Inputs ---- */
+
+.ui-input-text {
+  margin: 0.5em 0;
+  padding: 0.4em;
+  border: 1px solid #ccc;
+  border-radius: 0.6em;
+  background: #fff;
+  color: #333;
+  font: 16px Helvetica, Arial, sans-serif;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+.ui-input-text:focus { outline: none; box-shadow: 0 0 12px #387bbe; }
+
+/* ---- Grids ---- */
+
+fieldset { margin: 0; padding: 0; border: 0; min-width: 0; }
+
+.ui-grid-a,
+.ui-grid-b { display: flex; flex-wrap: wrap; }
+
+.ui-grid-a > * { width: 50%; }
+.ui-grid-b > * { width: 33.333%; }
+
+fieldset.ui-grid-a > *,
+fieldset.ui-grid-b > * { padding: 0 0.25em; }
+
+/* ---- Tables ---- */
+
+.ui-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.ui-table th,
+.ui-table td {
+  padding: 0.4em;
+  line-height: 1.3;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ui-table thead th { font-weight: bold; }
+.table-stroke thead th { border-bottom: 1px solid #d6d6d6; border-bottom-color: rgba(0, 0, 0, 0.15); }
+.table-stroke tbody th,
+.table-stroke tbody td { border-bottom: 1px solid #e6e6e6; border-bottom-color: rgba(0, 0, 0, 0.1); }
+
+/* ---- Loader ---- */
+
+body.ui-disabled .ui-page {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.ui-loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 2000;
+  width: 200px;
+  margin: -45px 0 0 -100px;
+  padding: 1em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+
+.ui-loader h1 { margin: 0.6em 0 0; font-size: 15px; }
+
+.ui-loader-icon {
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 0 auto;
+  border: 4px solid rgba(255, 255, 255, 0.25);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---- App styles (app.css) ---- */
+
+.form-container { text-align: center; }
+
+.home-top-container .inner-container {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.form-container .ui-input-text {
+  display: inline-block;
+  width: 50%;
+}
+
+.avatar {
+  margin: 10px auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+/* jQuery's slideDown/slideUp */
+.avatar-container {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 600ms ease;
+}
+.avatar-container.is-open { grid-template-rows: 1fr; }
+.avatar-inner { overflow: hidden; min-height: 0; }
+.avatar-container:not(.is-open) .avatar-inner { visibility: hidden; transition: visibility 0s 600ms; }
+
+/* ---- Phone styles (app-phone.css) ---- */
+
+@media all and (max-width: 599px) {
+  .ui-grid-a > *,
+  .ui-grid-b > * { width: 100%; }
+}
