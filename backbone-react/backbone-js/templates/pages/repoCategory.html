@@ -1,0 +1,13 @@
+{{#if isPhone}}
+  {{> header}}
+<div data-role="content">
+{{/if}}
+  <fieldset class="ui-grid-b">
+    <div class="ui-block-a"><button type="submit" data-theme="b" id="all-repos">All</button></div>
+    <div class="ui-block-b"><button type="submit" data-theme="b" id="source-repos">Source's</button></div>
+    <div class="ui-block-c"><button type="submit" data-theme="b" id="fork-repos">Fork's</button></div>
+  </fieldset>
+{{#if isPhone}}
+</div>
+  {{> footer}}
+{{/if}}

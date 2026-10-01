@@ -1,0 +1,26 @@
+{{#if isPhone}}
+  {{> header}}
+<div data-role="content">
+{{/if}}
+  <table data-role="table" class="ui-responsive table-stroke">
+    <thead>
+      <tr>
+        <th>Event</th>
+        <th>Action</th>
+        <th>Repository</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each events}}
+      <tr>
+        <th>{{type}}</th>
+        <td>{{payload.action}}</td>
+        <td>{{repo.name}}</td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+{{#if isPhone}}
+</div>
+  {{> footer}}
+{{/if}}
