@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description"
+          content="Weather App that shows current weather and forecasts using a simple, responsive interface. Built with Vanilla JS."/>
+    <meta name="keywords" content="weather app, vanilla js, weather forecast, current weather, JavaScript project"/>
+
+    <title>Weather App</title>
+
+    <link rel="icon" href="img/favicon-v3.png" type="image/png"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/theme.css"/>
+    <link rel="stylesheet" href="css/weather.css"/>
+
+    <script src="js/app.js" type="module" defer></script>
+</head>
+
+<body>
+<button class="theme-toggle js-theme-toggle" id="theme-toggle">
+    <span class="js-theme-toggle__icon">🌙</span>
+    <span class="js-theme-toggle__text">Dark Mode</span>
+    <span class="js-theme-toggle__icon_2">🌙</span>
+</button>
+
+<header>
+    <h1 class="weather__title">Weather App</h1>
+</header>
+
+<main>
+    <section class="weather__search">
+        <input type="text" placeholder="Enter city" class="weather__input js-weather-input"/>
+        <button class="weather__button js-weather-search-button" type="button">Search</button>
+    </section>
+
+    <div id="error-container" class="error" style="display: none;">
+        <img class="error-icon" src="img/error-icon.svg"/>
+        <p class="error-info"> Oops! Could not fetch weather data. Please try again later.</p>
+    </div>
+
+    <section class="weather__section js-weather-result is-hidden">
+        <div class="weather__result">
+            <h2 class="weather__section-title js-weather-city-name">City Name</h2>
+            <p class="weather__temperature js-weather-temperature">--°C</p>
+            <img src="" alt="Weather icon" class="weather__icon js-weather-icon"/>
+            <p class="weather__description js-weather-description">Weather description</p>
+        </div>
+        <button class="weather__button js-weather-forecast-button" id="forecast-button">Show 5-Day Forecast</button>
+    </section>
+
+    <section class="weather__section js-weather-forecast is-hidden" id="weather-forecast">
+        <h2 class="weather__section-title">5-Day Forecast</h2>
+        <button class="weather__button js-weather-forecast-button-hide" id="forecast-button-hide">Hide 5-Day Forecast
+        </button>
+        <div class="weather__forecast-list js-weather-forecast-list">
+        </div>
+    </section>
+</main>
+
+<footer class="weather__footer">
+    <p>Built with Vanilla JS</p>
+</footer>
+</body>
+</html>

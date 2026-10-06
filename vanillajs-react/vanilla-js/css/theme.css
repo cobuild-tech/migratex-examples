@@ -1,0 +1,60 @@
+:root {
+    --bg-color: #CEE6DB;
+    --text-color: #122C20;
+    --accent-color: #E1A306;
+    --accent-hover: #f59e0b;
+    --accent-focus: #FF7300;
+    --card-bg: #96C5B0;
+    --card-text-color: #122C20;
+    --button-text-color: #1e1e1e;
+    --button-hover: #E4AE25;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+    --bg-color: #122C20;
+    --text-color: #CEE6DB;
+    --accent-color: #f59e0b;
+    --accent-hover: #E1A306;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.theme-toggle {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--accent-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-toggle:focus {
+    border-color: var(--accent-focus);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 221, 0, 0.3);
+}
+
+[data-theme="light"] .theme-toggle {
+    background-color: var(--bg-color);
+    border-color: var(--accent-color);
+}
+
+[data-theme="light"] .theme-toggle:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+[data-theme="dark"] .theme-toggle {
+    background-color: var(--bg-color);
+    border-color: var(--accent-color);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+    background-color: var(--text-color);
+    color: var(--card-bg);
+}
