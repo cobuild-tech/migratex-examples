@@ -1,0 +1,5 @@
+/* The original markup sat directly in <body>, a centered flex column. Let #root's
+   children take part in that layout as if the wrapper weren't there. */
+#root {
+    display: contents;
+}
