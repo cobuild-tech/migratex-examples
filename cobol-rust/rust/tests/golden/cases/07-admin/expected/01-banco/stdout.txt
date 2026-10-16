@@ -1,0 +1,386 @@
+ 
+=====================================
+          BANCO v1.0.0     
+   Sistema Bancario Empresarial
+     Fundado en 2026 - Espana
+=====================================
+ 
+Inicializando sistema...
+Contadores cargados correctamente.
+ 
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+LOGIN ADMINISTRADOR
+==================
+Usuario: Contrasena: Credenciales invalidas
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+LOGIN ADMINISTRADOR
+==================
+Usuario: Contrasena:  
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+GESTIONAR CLIENTES
+==================
+1. Ver Todos los Clientes
+2. Buscar Cliente
+3. Eliminar Cliente
+0. Volver
+Seleccione:  
+LISTA DE CLIENTES
+=================
+ 
+Total de clientes: 0000000000
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+GESTIONAR EMPLEADOS
+===================
+1. Ver Empleados
+2. Crear Empleado
+3. Eliminar Empleado
+0. Volver
+Seleccione:  
+EMPLEADOS DEL BANCO
+===================
+ 
+ID: 00001000
+Usuario: admin                         
+Nombre: Administrador Sistema                             
+Cargo: Administrador                 
+Fecha Inicio: 20261016  
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+GESTIONAR EMPLEADOS
+===================
+1. Ver Empleados
+2. Crear Empleado
+3. Eliminar Empleado
+0. Volver
+Seleccione:  
+CREAR NUEVO EMPLEADO
+====================
+Usuario: Contrasena: Nombre: Cargo: Empleado creado exitosamente
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+GESTIONAR EMPLEADOS
+===================
+1. Ver Empleados
+2. Crear Empleado
+3. Eliminar Empleado
+0. Volver
+Seleccione:  
+EMPLEADOS DEL BANCO
+===================
+ 
+ID: 00001000
+Usuario: admin                         
+Nombre: Administrador Sistema                             
+Cargo: Administrador                 
+Fecha Inicio: 20261016  
+ 
+ID: 00000501
+Usuario: jperez                        
+Nombre: Juan Perez                                        
+Cargo: Cajero                        
+Fecha Inicio: 20261016  
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Nueva comision: Configuracion guardada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Nuevo limite diario: Configuracion guardada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Nuevo limite mensual: Configuracion guardada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Nuevo interes ahorros: Configuracion guardada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Nuevo interes corriente: Configuracion guardada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Configuracion guardada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+CONFIGURACION DEL SISTEMA
+=========================
+1. Modificar Comision
+2. Modificar Limite Diario
+3. Modificar Limite Mensual
+4. Modificar Interes Ahorros
+5. Modificar Interes Corriente
+0. Volver
+Seleccione: Opcion invalida
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+ESTADISTICAS DEL BANCO
+======================
+ 
+Clientes Activos: 00000000
+Cuentas Activas: 0000000000
+Movimientos Registrados: 0000000000
+Dinero Total en Banco: 000000000000000.00
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+COPIA DE SEGURIDAD
+==================
+Generando copia de seguridad...
+Copia realizada exitosamente
+Archivos backup: copia_YYYYMMDD.bak
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+RESTAURAR DATOS
+===============
+ADVERTENCIA: Esto sobrescribira los datos
+Confirma? (S/N): Operacion cancelada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+RESTAURAR DATOS
+===============
+ADVERTENCIA: Esto sobrescribira los datos
+Confirma? (S/N): Restaurando datos...
+Restauracion completada
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion: Opcion invalida
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+Cerrando SantiBanco...
+Datos guardados correctamente
+Hasta pronto.
+ 
