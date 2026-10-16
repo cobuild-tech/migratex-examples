@@ -1,0 +1,8 @@
+<br />
+<b>Notice</b>:  Undefined variable: e in <b>/var/www/html/config/Database.php</b> on line <b>16</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught Error: Call to a member function getMessage() on null in /var/www/html/config/Database.php:16
+Stack trace:
+#0 /var/www/html/api/put.php(12): Database-&gt;connect()
+#1 {main}
+  thrown in <b>/var/www/html/config/Database.php</b> on line <b>16</b><br />

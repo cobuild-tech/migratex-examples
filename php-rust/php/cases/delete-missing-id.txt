@@ -1,0 +1,2 @@
+DELETE /api/delete.php {}
+DELETE /api/delete.php

@@ -1,0 +1,3 @@
+access-control-allow-methods: POST
+access-control-allow-origin: *
+content-type: application/json

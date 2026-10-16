@@ -1,0 +1,4 @@
+DELETE /api/delete.php {"id":15}
+DELETE /api/delete.php {"id":16}
+DELETE /api/delete.php {"id":17}
+GET /api/get.php

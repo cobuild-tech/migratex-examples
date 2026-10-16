@@ -1,0 +1,2 @@
+POST /api/post.php {"name":"Obj","address":{"city":"Pune"},"age":1}
+GET /api/get.php

@@ -1,0 +1,4 @@
+POST /api/post.php {"name":"Ravi","address":"Goa","age":"22"}
+POST /api/post.php {"name":"Mira","address":"Agra","age":19.5}
+POST /api/post.php {"name":7,"address":true,"age":"20"}
+GET /api/get.php

@@ -1,0 +1,11 @@
+<br />
+<b>Notice</b>:  Undefined property: stdClass::$address in <b>/var/www/html/api/put.php</b> on line <b>20</b><br />
+<br />
+<b>Notice</b>:  Undefined property: stdClass::$age in <b>/var/www/html/api/put.php</b> on line <b>21</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'address' cannot be null in /var/www/html/models/Student.php:69
+Stack trace:
+#0 /var/www/html/models/Student.php(69): PDOStatement-&gt;execute()
+#1 /var/www/html/api/put.php(25): Student-&gt;putData()
+#2 {main}
+  thrown in <b>/var/www/html/models/Student.php</b> on line <b>69</b><br />

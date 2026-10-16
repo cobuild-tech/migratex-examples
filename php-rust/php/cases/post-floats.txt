@@ -1,0 +1,5 @@
+POST /api/post.php {"name":"Big","address":"x","age":1e20}
+POST /api/post.php {"name":"Tiny","address":"x","age":1.5e-7}
+POST /api/post.php {"name":"Max","address":"x","age":9223372036854775808}
+POST /api/post.php {"name":1.10,"address":0.1,"age":-0.0}
+GET /api/get.php

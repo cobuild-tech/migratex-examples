@@ -1,0 +1,2 @@
+PUT /api/put.php {"id":15,"name":"Dave"}
+GET /api/get_one.php {"id":15}

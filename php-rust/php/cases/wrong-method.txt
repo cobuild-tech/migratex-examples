@@ -1,0 +1,7 @@
+POST /api/get.php
+POST /api/get_one.php {"id":16}
+GET /api/post.php
+POST /api/put.php {"id":15,"name":"X","address":"Y","age":1}
+GET /api/delete.php {"id":15}
+PATCH /api/put.php
+GET /api/get.php
