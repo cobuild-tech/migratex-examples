@@ -1,0 +1,56 @@
+# The PHP original, the Rust port and an nginx front, sharing one MariaDB.
+#
+#   docker compose up -d --build
+#   PHP   http://localhost:8180/api/get.php
+#   Rust  http://localhost:8181/api/get.php
+#   nginx http://localhost:8100/api/get.php   (nginx.conf picks a side per route)
+services:
+  db:
+    image: mariadb:10.4
+    environment:
+      MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: "1"
+      MARIADB_DATABASE: studentdb
+    volumes:
+      - ./php/db/studentdb.sql:/docker-entrypoint-initdb.d/studentdb.sql:ro
+      # config/Database.php connects to "localhost", which PDO takes to mean the
+      # Unix socket, so the PHP container shares the server's socket directory.
+      - mysqld-socket:/run/mysqld
+    ports:
+      - "3317:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-uroot", "--silent"]
+      interval: 2s
+      retries: 30
+
+  php:
+    build: ./php/docker
+    volumes:
+      - ./php:/var/www/html:ro
+      - mysqld-socket:/var/run/mysqld
+    ports:
+      - "8180:80"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  rust:
+    build: ./rust
+    environment:
+      DATABASE_URL: mysql://root@db:3306/studentdb
+      STUDENTS_COMPAT: ${STUDENTS_COMPAT:-1}
+    ports:
+      - "8181:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  nginx:
+    image: nginx:1.27-alpine
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "8100:80"
+    depends_on: [php, rust]
+
+volumes:
+  mysqld-socket:

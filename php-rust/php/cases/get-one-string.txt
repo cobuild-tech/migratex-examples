@@ -1,0 +1,3 @@
+GET /api/get_one.php {"id":"16"}
+GET /api/get_one.php {"id":"16abc"}
+GET /api/get_one.php {"id":" 15"}

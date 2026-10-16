@@ -1,0 +1,4 @@
+GET /api/get_one.php
+GET /api/get_one.php not json
+GET /api/get_one.php [16]
+GET /api/get_one.php {"ID":16}

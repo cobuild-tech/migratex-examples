@@ -1,0 +1,4 @@
+GET /api/get_one.php {"id":0}
+GET /api/get_one.php {"id":true}
+GET /api/get_one.php {"id":15.9}
+GET /api/get_one.php {"id":null}

@@ -1,0 +1,2 @@
+PUT /api/put.php {"name":"Dave","address":"Mysuru","age":24}
+PUT /api/put.php

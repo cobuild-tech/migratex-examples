@@ -1,0 +1,2 @@
+GET /api/get_one.php {"id":[15]}
+GET /api/get_one.php {"id":{"a":15}}

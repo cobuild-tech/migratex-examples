@@ -1,0 +1,3 @@
+POST /api/post.php {"name":["a","b"],"address":{},"age":1}
+POST /api/post.php {"name":["a"],"address":[],"age":[2]}
+GET /api/get.php

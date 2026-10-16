@@ -1,0 +1,3 @@
+PUT /api/put.php {"id":[15],"name":"A","address":"B","age":1}
+PUT /api/put.php {"id":"15","name":["x"],"address":"B","age":true}
+GET /api/get.php

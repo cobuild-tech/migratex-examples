@@ -1,0 +1,4 @@
+POST /api/post.php {"name":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","address":"x","age":1}
+POST /api/post.php {"name":"Html","address":"x","age":"<b>\"&</b>"}
+POST /api/post.php {"name":"","address":"","age":false}
+GET /api/get.php

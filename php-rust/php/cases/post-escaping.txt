@@ -1,0 +1,4 @@
+POST /api/post.php {"name":"Zoë \"Z\" O'Neil","address":"12/B Rue d’Été <&>","age":30}
+POST /api/post.php {"name":"Ana 😀","address":"tab\there","age":31}
+GET /api/get.php
+GET /api/get_one.php {"id":18}

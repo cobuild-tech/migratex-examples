@@ -1,0 +1,2 @@
+POST /api/post.php {"name":"Kim","address":"Ooty","age":"abc"}
+GET /api/get.php
