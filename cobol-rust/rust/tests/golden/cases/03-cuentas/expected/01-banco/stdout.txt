@@ -1,0 +1,539 @@
+ 
+=====================================
+          BANCO v1.0.0     
+   Sistema Bancario Empresarial
+     Fundado en 2026 - Espana
+=====================================
+ 
+Inicializando sistema...
+Contadores cargados correctamente.
+ 
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+REGISTRO DE CLIENTE NUEVO
+========================
+Nombre: Apellido: DNI (9 caracteres): Email: Telefono: Direccion: Ciudad: Codigo Postal:  
+Cliente registrado exitosamente
+Su ID de cliente es: 00001001
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+LOGIN DE CLIENTE
+================
+ID de Cliente:  
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CUENTAS DEL CLIENTE
+==================
+No tiene cuentas registradas
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CREAR NUEVA CUENTA
+==================
+Tipo de cuenta:
+1. Cuenta Corriente
+2. Cuenta de Ahorros
+3. Cuenta Nomina
+Seleccione:  
+Cuenta creada exitosamente
+IBAN: ES910000000000          
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CREAR NUEVA CUENTA
+==================
+Tipo de cuenta:
+1. Cuenta Corriente
+2. Cuenta de Ahorros
+3. Cuenta Nomina
+Seleccione:  
+Cuenta creada exitosamente
+IBAN: ES910000000000          
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CREAR NUEVA CUENTA
+==================
+Tipo de cuenta:
+1. Cuenta Corriente
+2. Cuenta de Ahorros
+3. Cuenta Nomina
+Seleccione:  
+Cuenta creada exitosamente
+IBAN: ES910000000000          
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CREAR NUEVA CUENTA
+==================
+Tipo de cuenta:
+1. Cuenta Corriente
+2. Cuenta de Ahorros
+3. Cuenta Nomina
+Seleccione: Tipo invalido
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CUENTAS DEL CLIENTE
+==================
+ 
+ID Cuenta: 0000100001
+IBAN: ES910000000000          
+Tipo: CORRIENTE           
+Saldo: 000000000000.00
+Estado: A
+ 
+ID Cuenta: 0000100002
+IBAN: ES910000000000          
+Tipo: AHORROS             
+Saldo: 000000000000.00
+Estado: A
+ 
+ID Cuenta: 0000100003
+IBAN: ES910000000000          
+Tipo: NOMINA              
+Saldo: 000000000000.00
+Estado: A
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+INGRESO DE DINERO
+=================
+Ingrese ID de cuenta: Cantidad a ingresar: Ingreso realizado exitosamente
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+INGRESO DE DINERO
+=================
+Ingrese ID de cuenta: Cantidad a ingresar: Cantidad invalida
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+INGRESO DE DINERO
+=================
+Ingrese ID de cuenta: Cantidad a ingresar: Ingreso realizado exitosamente
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+INGRESO DE DINERO
+=================
+Ingrese ID de cuenta: Cantidad a ingresar: Ingreso realizado exitosamente
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+INGRESO DE DINERO
+=================
+Ingrese ID de cuenta: Cuenta no encontrada
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+INGRESO DE DINERO
+=================
+Ingrese ID de cuenta: Cantidad a ingresar: Cantidad invalida
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+RETIRADA DE DINERO
+==================
+Ingrese ID de cuenta: Cantidad a retirar: Retirada realizada exitosamente
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+RETIRADA DE DINERO
+==================
+Ingrese ID de cuenta: Cantidad a retirar: Saldo insuficiente
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+RETIRADA DE DINERO
+==================
+Ingrese ID de cuenta: Cantidad a retirar: Cantidad invalida
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+RETIRADA DE DINERO
+==================
+Ingrese ID de cuenta: Cuenta no encontrada
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CONSULTAR SALDO
+===============
+Ingrese ID de cuenta:  
+Saldo actual: 000000000775.50
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CONSULTAR SALDO
+===============
+Ingrese ID de cuenta: Cuenta no encontrada
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CUENTAS DEL CLIENTE
+==================
+ 
+ID Cuenta: 0000100001
+IBAN: ES910000000000          
+Tipo: CORRIENTE           
+Saldo: 000000000775.50
+Estado: A
+ 
+ID Cuenta: 0000100002
+IBAN: ES910000000000          
+Tipo: AHORROS             
+Saldo: 000000000012.34
+Estado: A
+ 
+ID Cuenta: 0000100003
+IBAN: ES910000000000          
+Tipo: NOMINA              
+Saldo: 000000000000.00
+Estado: A
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+HISTORIAL DE MOVIMIENTOS
+========================
+ 
+ID: 000001000001
+Fecha: 20261016   Hora: 09301542
+Tipo: INGRESO             
+Importe: 000000000100.50
+Saldo: 000000000100.50
+Descripcion: Ingreso de efectivo                                                                                 
+ 
+ID: 000001000002
+Fecha: 20261016   Hora: 09301542
+Tipo: INGRESO             
+Importe: 000000000725.00
+Saldo: 000000000825.50
+Descripcion: Ingreso de efectivo                                                                                 
+ 
+ID: 000001000003
+Fecha: 20261016   Hora: 09301542
+Tipo: INGRESO             
+Importe: 000000000012.34
+Saldo: 000000000012.34
+Descripcion: Ingreso de efectivo                                                                                 
+ 
+ID: 000001000004
+Fecha: 20261016   Hora: 09301542
+Tipo: RETIRADA            
+Importe: 000000000050.00
+Saldo: 000000000775.50
+Descripcion: Retirada de efectivo                                                                                
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion: Opcion invalida
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+Cerrando SantiBanco...
+Datos guardados correctamente
+Hasta pronto.
+ 

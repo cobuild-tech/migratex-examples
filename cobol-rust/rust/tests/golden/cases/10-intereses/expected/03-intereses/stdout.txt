@@ -1,0 +1,13 @@
+=====================================
+   ABONO MENSUAL DE INTERESES
+=====================================
+Fecha: 20261016
+Interes ahorros (%): 002.500
+Interes corriente (%): 000.500
+ 
+Cuenta 0000100001 CORRIENTE            Saldo: 000000001000.41 Interes: 000000000000.41
+Cuenta 0000100002 AHORROS              Saldo: 000000001237.14 Interes: 000000000002.57
+ 
+Cuentas leidas: 0000000003
+Cuentas abonadas: 0000000002
+Total intereses: 000000000000002.98

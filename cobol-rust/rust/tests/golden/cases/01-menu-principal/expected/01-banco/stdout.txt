@@ -1,0 +1,129 @@
+ 
+=====================================
+          BANCO v1.0.0     
+   Sistema Bancario Empresarial
+     Fundado en 2026 - Espana
+=====================================
+ 
+Inicializando sistema...
+Contadores cargados correctamente.
+ 
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+INFORMACION DEL SISTEMA
+=======================
+Nombre: Banco
+Version: 1.0.0     
+Fundacion: 2026
+Ubicacion: Espana
+Tipo: Sistema Bancario Empresarial
+Base Datos: Archivos Secuenciales
+Desarrollado por: XalVok
+ 
+CARACTERISTICAS:
+- Gestion de clientes
+- Multiples cuentas por cliente
+- Operaciones bancarias completas
+- Tarjetas de debito
+- Historial de movimientos
+- Administracion integrada
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+AYUDA DE BANCO
+==================
+ 
+REGISTRARSE:
+  - Seleccione opcion 1 en menu principal
+  - Complete formulario con datos requeridos
+  - Recibira ID de cliente automaticamente
+ 
+LOGIN:
+  - Utilice su ID de cliente para acceder
+  - Acceso a todas sus cuentas y tarjetas
+ 
+CUENTAS:
+  - Puede crear multiples cuentas
+  - Tipos: Corriente, Ahorros, Nomina
+  - Cada cuenta tiene IBAN unico
+ 
+OPERACIONES:
+  - Ingreso: Dinero a su cuenta
+  - Retirada: Dinero de su cuenta
+  - Transferencias: Entre cuentas propias
+    o a otros clientes por IBAN
+ 
+TARJETAS:
+  - Se crean automaticamente por cuenta
+  - Puede bloquear/desbloquear
+  - Cambiar PIN cuando lo desee
+ 
+HISTORIAL:
+  - Todos los movimientos quedan registrados
+  - Fecha, hora, tipo, importe y saldos
+ 
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion: Opcion invalida
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion: Opcion invalida
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion: Opcion invalida
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+Cerrando SantiBanco...
+Datos guardados correctamente
+Hasta pronto.
+ 

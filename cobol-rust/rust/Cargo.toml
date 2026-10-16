@@ -1,0 +1,18 @@
+[package]
+name = "banco"
+version = "1.0.0"
+edition = "2021"
+license = "AGPL-3.0-or-later"
+description = "Rust port of Banco-en-COBOL, a menu-driven banking system on sequential files"
+publish = false
+
+[dependencies]
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+
+[[bin]]
+name = "banco"
+path = "src/main.rs"
+
+[[bin]]
+name = "intereses"
+path = "src/bin/intereses.rs"
