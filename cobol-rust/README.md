@@ -147,8 +147,32 @@ Every amount is an unsigned fixed-point decimal, and the port never uses floatin
 | [`rust/`](./rust) | Rust 2021, `cargo` |
 
 Both run in the folder that holds the data files. `rust/` is a standalone crate with its own README and
-tests. `cobol/` builds with `make`, and `make golden` re-records the sessions after a change to a session
-script.
+tests.
+
+### The COBOL side
+
+`cobol/` is the upstream repository merged in with its history, so `git log cobol-rust/cobol` shows the
+original commits and authors (from [`7ea14ed`](https://github.com/Mel-Roses/Banco-en-COBOL/tree/7ea14ed7512e77cae43c0b837884f7bc76beec90)).
+Its README is the upstream one. The commit after the import removes the bundled Windows GnuCOBOL runtime
+(`*.dll`) and the sample `.dat` files. `banco.cob` itself is unchanged. These files are ours:
+
+| File | What it is |
+|---|---|
+| `intereses.cob` | A monthly interest batch job in the same style, so the example covers batch work too |
+| `tests/accept.cob` | Prints what `ACCEPT` stores for each input, to check the Rust number parser |
+| `capture-golden.sh` | Records the golden sessions the Rust tests compare against |
+| `Makefile` | Build, run and record |
+
+```bash
+cd cobol
+brew install gnucobol            # or apt install gnucobol (GnuCOBOL 3.2 was used)
+make                             # builds ./banco and ./intereses
+make run                         # creates empty data files if needed, starts the menus
+make golden                      # re-records ../rust/tests/golden (needs `timeout` from coreutils)
+```
+
+The source runs past column 72, so it is compiled with `-fformat=variable`. The program stops with file
+status 35 if a data file is missing, so `make run` creates them first.
 
 ## Licence
 
