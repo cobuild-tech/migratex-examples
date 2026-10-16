@@ -10,3 +10,4 @@ Example migrations from [MigrateX](https://cobuildx.ai) by CobuildX AI. Each fol
 | [`vanillajs-react/`](./vanillajs-react) | A plain HTML/CSS/JavaScript weather app (OpenWeatherMap) and its React 18 rewrite, with the same markup, styles and API calls, plus a test suite the original never had |
 | [`jquery-react/`](./jquery-react) | A jQuery 3.6 tip calculator and its React 18 rewrite, with the same markup and stylesheet, its calculation bugs fixed, and a test suite the original never had |
 | [`cobol-rust/`](./cobol-rust) | A GnuCOBOL banking system (menus, accounts, transfers, cards, on sequential files) and its Rust rewrite, matching the original byte for byte in a compat mode and fixing nine bugs by default |
+| [`php-rust/`](./php-rust) | A plain PHP + PDO + MySQL REST API (students CRUD, no framework) and its Rust (axum + sqlx) rewrite behind an nginx route switch, matching PHP byte for byte, notices included, in a compat mode and fixing its bugs by default |
