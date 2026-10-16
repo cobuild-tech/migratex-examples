@@ -1,0 +1,9 @@
+<br />
+<b>Notice</b>:  Undefined property: stdClass::$age in <b>/var/www/html/api/post.php</b> on line <b>20</b><br />
+<br />
+<b>Fatal error</b>:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'age' cannot be null in /var/www/html/models/Student.php:53
+Stack trace:
+#0 /var/www/html/models/Student.php(53): PDOStatement-&gt;execute()
+#1 /var/www/html/api/post.php(22): Student-&gt;postData()
+#2 {main}
+  thrown in <b>/var/www/html/models/Student.php</b> on line <b>53</b><br />

@@ -1,0 +1,7 @@
+<br />
+<b>Notice</b>:  Trying to get property 'name' of non-object in <b>/var/www/html/api/put.php</b> on line <b>19</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'address' of non-object in <b>/var/www/html/api/put.php</b> on line <b>20</b><br />
+<br />
+<b>Notice</b>:  Trying to get property 'age' of non-object in <b>/var/www/html/api/put.php</b> on line <b>21</b><br />
+{"message":"Error: Student ID is missing!"}
