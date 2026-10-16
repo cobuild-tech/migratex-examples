@@ -1,0 +1,67 @@
+ 
+=====================================
+          BANCO v1.0.0     
+   Sistema Bancario Empresarial
+     Fundado en 2026 - Espana
+=====================================
+ 
+Inicializando sistema...
+Contadores cargados correctamente.
+ 
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+LOGIN ADMINISTRADOR
+==================
+Usuario: Contrasena:  
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+GESTIONAR CLIENTES
+==================
+1. Ver Todos los Clientes
+2. Buscar Cliente
+3. Eliminar Cliente
+0. Volver
+Seleccione:  
+Ingrese DNI a buscar:  
+ID: 00001001
+Nombre: Ana Maria                                          Garcia Lopez                                      
+DNI: 12345678Z
+Email: nuevo@correo.es                                   
+Telefono: 699000111      
+Direccion: Plaza Nueva 3                                                                                       
+Ciudad: Toledo                        
+CP: 28001
+ 
+MENU ADMINISTRADOR
+==================
+1. Gestionar Clientes
+2. Gestionar Empleados
+3. Configurar Sistema
+4. Ver Estadisticas
+5. Copia de Seguridad
+6. Restaurar Datos
+0. Cerrar Sesion
+==================
+Seleccione opcion:  
+Cerrando SantiBanco...
+Datos guardados correctamente
+Hasta pronto.
+ 

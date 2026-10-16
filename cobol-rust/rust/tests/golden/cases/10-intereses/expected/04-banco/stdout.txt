@@ -1,0 +1,146 @@
+ 
+=====================================
+          BANCO v1.0.0     
+   Sistema Bancario Empresarial
+     Fundado en 2026 - Espana
+=====================================
+ 
+Inicializando sistema...
+Contadores cargados correctamente.
+ 
+ 
+MENU PRINCIPAL - BANCO
+==============================
+1. Registrarse como Cliente
+2. Login Cliente
+3. Login Administrador
+4. Ver Informacion del Sistema
+5. Ayuda
+0. Salir
+==============================
+Seleccione opcion:  
+LOGIN DE CLIENTE
+================
+ID de Cliente:  
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+CUENTAS DEL CLIENTE
+==================
+ 
+ID Cuenta: 0000100001
+IBAN: ES910000000000          
+Tipo: CORRIENTE           
+Saldo: 000000001000.82
+Estado: A
+ 
+ID Cuenta: 0000100002
+IBAN: ES910000000000          
+Tipo: AHORROS             
+Saldo: 000000001239.71
+Estado: A
+ 
+ID Cuenta: 0000100003
+IBAN: ES910000000000          
+Tipo: NOMINA              
+Saldo: 000000000500.00
+Estado: A
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+HISTORIAL DE MOVIMIENTOS
+========================
+ 
+ID: 000001000001
+Fecha: 20261016   Hora: 09301542
+Tipo: INGRESO             
+Importe: 000000001000.00
+Saldo: 000000001000.00
+Descripcion: Ingreso de efectivo                                                                                 
+ 
+ID: 000001000002
+Fecha: 20261016   Hora: 09301542
+Tipo: INGRESO             
+Importe: 000000001234.57
+Saldo: 000000001234.57
+Descripcion: Ingreso de efectivo                                                                                 
+ 
+ID: 000001000003
+Fecha: 20261016   Hora: 09301542
+Tipo: INGRESO             
+Importe: 000000000500.00
+Saldo: 000000000500.00
+Descripcion: Ingreso de efectivo                                                                                 
+ 
+ID: 000001000004
+Fecha: 20261016   Hora: 09301542
+Tipo: INTERES             
+Importe: 000000000000.41
+Saldo: 000000001000.41
+Descripcion: Abono de intereses                                                                                  
+ 
+ID: 000001000005
+Fecha: 20261016   Hora: 09301542
+Tipo: INTERES             
+Importe: 000000000002.57
+Saldo: 000000001237.14
+Descripcion: Abono de intereses                                                                                  
+ 
+ID: 000001000006
+Fecha: 20261016   Hora: 09301542
+Tipo: INTERES             
+Importe: 000000000000.41
+Saldo: 000000001000.82
+Descripcion: Abono de intereses                                                                                  
+ 
+ID: 000001000007
+Fecha: 20261016   Hora: 09301542
+Tipo: INTERES             
+Importe: 000000000002.57
+Saldo: 000000001239.71
+Descripcion: Abono de intereses                                                                                  
+ 
+MENU CLIENTE - Ana Maria                                         
+========================
+1.  Crear Cuenta
+2.  Ver Cuentas
+3.  Consultar Saldo
+4.  Ingresar Dinero
+5.  Retirar Dinero
+6.  Transferir Dinero
+7.  Historial de Movimientos
+8.  Solicitar Tarjeta
+9.  Gestionar Tarjetas
+10. Modificar Datos
+0.  Cerrar Sesion
+========================
+Seleccione opcion:  
+Cerrando SantiBanco...
+Datos guardados correctamente
+Hasta pronto.
+ 
