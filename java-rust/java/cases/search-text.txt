@@ -1,0 +1,20 @@
+GET /search?date=2026-10-19&source=India'+OR+'1'%3D'1&destination=USA&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&source=India'&destination=USA&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&source=%3Cb%3EIndia%3C%2Fb%3E&destination=USA&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&source=%C3%8Dndia&destination=%E2%82%AC&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&source=India&source=UK&destination=USA&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&destination=USA&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&source=%25&destination=%25&persons=1
+GET /search-results.jsp
+GET /search?date=2026-10-19&source=India&destination=USA&persons=1&persons=4
+GET /search-results.jsp
+POST /search date=2026-10-24&source=UK&destination=India&persons=2
+GET /search-results.jsp
+POST /search?persons=3 date=2026-10-24&source=UK&destination=India
+GET /search-results.jsp

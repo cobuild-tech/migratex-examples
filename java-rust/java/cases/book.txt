@@ -1,0 +1,6 @@
+GET /search?date=2026-10-19&source=India&destination=USA&persons=2
+GET /search-results.jsp
+POST /booking-details.jsp name=AIR+India&ticket_price=43000&flight_id=1
+POST /payment.jsp pname=Ada+Lovelace&email=ada%40example.com&phone=5550100
+POST /thank-you.jsp name_on_card=ADA+LOVELACE&card_details=4111111111111111
+GET /thank-you.jsp?name_on_card=X&card_details=1

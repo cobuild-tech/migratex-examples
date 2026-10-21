@@ -1,0 +1,10 @@
+POST /login passwordEntered=Admin
+POST /login emailEntered=admin%40flyaway.com
+POST /login
+POST /change-password
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=Admin
+POST /change-password
+POST /change-password passwordEntered=+
+GET /login.jsp
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=+
+POST /login?emailEntered=admin%40flyaway.com passwordEntered=+

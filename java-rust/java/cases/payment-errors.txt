@@ -1,0 +1,14 @@
+GET /search?date=2026-10-19&source=India&destination=USA&persons=2
+POST /booking-details.jsp name=AIR+India&ticket_price=43000&flight_id=1
+POST /payment.jsp pname=&email=a%40b.c&phone=1
+POST /payment.jsp pname=A&email=&phone=1
+POST /payment.jsp pname=A&email=a%40b.c&phone=
+POST /payment.jsp email=a%40b.c&phone=1
+POST /payment.jsp pname=A&phone=1
+POST /payment.jsp pname=A&email=a%40b.c
+POST /thank-you.jsp name_on_card=&card_details=4111
+POST /thank-you.jsp name_on_card=X&card_details=
+POST /thank-you.jsp card_details=4111
+POST /thank-you.jsp name_on_card=X
+POST /payment.jsp pname=Jos%C3%A9+%E2%82%AC&email=j%40x.y&phone=1
+POST /thank-you.jsp name_on_card=Jos%C3%A9&card_details=%3Cb%3E1%3C%2Fb%3E

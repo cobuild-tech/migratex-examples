@@ -1,0 +1,3 @@
+GET /search-results.jsp
+GET /payment.jsp?pname=a&email=b&phone=1
+GET /thank-you.jsp?name_on_card=a&card_details=1
