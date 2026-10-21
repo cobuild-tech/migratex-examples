@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Search Results - FlyAway Airlines{% endblock %}
+{% block content %}
+<div class="container">
+    <h2 align="center"><strong>Search Results</strong></h2>
+    <p align="center"><strong>
+        Showing available flights from {{ search.source }} to {{ search.destination }}<br>
+        Date of travel : {{ search.date }} ({{ search.day }})<br>
+        No of travellers : {{ search.persons }}
+    </strong></p>
+    {% if flights.is_empty() %}
+    <p align="center"><strong>No flights on this route on {{ search.day }}.</strong> <a href="/search-portal.jsp">Search again</a></p>
+    {% else %}
+    <table class="table table-hover table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Flight</th>
+            <th scope="col">Source</th>
+            <th scope="col">Destination</th>
+            <th scope="col">Date</th>
+            <th scope="col">Ticket Price</th>
+            <th scope="col">Select</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for f in flights %}
+        <tr bgcolor="#F5F5F5">
+            <td>{{ f.name }}</td>
+            <td>{{ f.source }}</td>
+            <td>{{ f.destination }}</td>
+            <td>{{ search.date }}</td>
+            <td>{{ f.ticket_price }}</td>
+            <td>
+                <form action="/booking-details.jsp" method="post">
+                    <input type="hidden" name="flight_id" value="{{ f.flight_id }}">
+                    <input type="submit" class="btn btn-success" value="Book This Flight">
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Admin - Login FlyAway Airlines{% endblock %}
+{% block content %}
+<section class="container-fluid bg">
+    <section class="row justify-content-center">
+        <section class="col-sm-6 col-md-3">
+            <form action="/login" method="post" class="form-container">
+                <h2 align="center"><b>Login</b></h2>
+                {% if let Some(error) = error %}<p class="error">{{ error }}</p>{% endif %}
+                <div class="form-group mb-2">
+                    <label for="inputEmail" class="sr-only">Email address</label>
+                    <input type="email" name="emailEntered" class="form-control" id="inputEmail" placeholder="Enter email" required>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" name="passwordEntered" class="form-control" id="inputPassword" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Login</button>
+            </form>
+        </section>
+    </section>
+</section>
+{% endblock %}

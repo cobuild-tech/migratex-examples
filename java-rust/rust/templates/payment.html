@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Payment Details - FlyAway Airlines{% endblock %}
+{% block content %}
+<section class="container-fluid bg">
+    <section class="row justify-content-center">
+        <section class="col-sm-6 col-md-3">
+            <form action="/thank-you.jsp" method="post" class="form-container">
+                <h1 align="center"><b>Checkout</b></h1>
+                {% if let Some(error) = error %}<p class="error">{{ error }}</p>{% endif %}
+                <div class="form-group">
+                    <label for="name_on_card">Name on Card</label>
+                    <input type="text" class="form-control" id="name_on_card" name="name_on_card" required maxlength="100">
+                </div>
+                <div class="form-group">
+                    <label for="card_details">Card Number</label>
+                    <input type="text" inputmode="numeric" autocomplete="cc-number" class="form-control" id="card_details" name="card_details" required>
+                </div>
+                <br>
+                <p align="left"><strong>Total fare = <br> {{ ticket_price }} X {{ persons }} persons = Rs.{{ total }}</strong></p>
+                <button type="submit" class="btn btn-success btn-block">Confirm Payment</button>
+            </form>
+        </section>
+    </section>
+</section>
+{% endblock %}
