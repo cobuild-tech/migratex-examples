@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Thank You - FlyAway Airlines{% endblock %}
+{% block content %}
+<div class="container">
+    <h2 align="center"><strong>Thank You</strong></h2>
+    <p align="center"><strong>Your ticket has been booked. The summary/details are as follows</strong></p>
+    <p><button onclick="window.print()" class="btn btn-success btn-block">Print Ticket</button></p>
+    <h3>Ticket Summary</h3>
+    <h4><strong>{{ t.source }} to {{ t.destination }} | {{ t.date }} ({{ t.day }})</strong></h4>
+    <p align="left">{{ t.flight_id }} - {{ t.flight_name }} (Travellers {{ t.persons }})</p>
+    <h3><strong>Passenger Summary</strong></h3>
+    <h3>Booking Name-{{ t.passenger_name }} | Email- {{ t.passenger_email }} | Phone- {{ t.passenger_phone }}</h3>
+    <h3><strong>Payment Summary</strong></h3>
+    <h4>Payment By-{{ t.name_on_card }} | Card No- **** **** **** {{ t.card_last4 }}</h4>
+    <h2 align="right"><strong>Total Paid- Rs.{{ t.total }}</strong></h2>
+</div>
+{% endblock %}

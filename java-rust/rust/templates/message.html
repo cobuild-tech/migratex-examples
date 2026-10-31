@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{{ heading }} - FlyAway Airlines{% endblock %}
+{% block content %}
+<div class="container">
+    <h2 align="center"><strong>{{ heading }}</strong></h2>
+    <p align="center">{{ text }}</p>
+    <p align="center"><a href="{{ link }}">{{ link_text }}</a></p>
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+POST /booking-details.jsp name=AIR+India&ticket_price=abc&flight_id=1
+POST /booking-details.jsp name=AIR+India&flight_id=1
+POST /booking-details.jsp name=AIR+India&ticket_price=43000.50&flight_id=1
+POST /booking-details.jsp ticket_price=1&flight_id=9
+GET /search?date=2026-10-19&source=India&destination=USA&persons=5
+POST /payment.jsp pname=Eve&email=e&phone=1
+POST /booking-details.jsp name=AIR+India&ticket_price=2147483647&flight_id=1
+POST /payment.jsp pname=Eve&email=e&phone=1
+POST /thank-you.jsp name_on_card=Eve&card_details=1
+POST /booking-details.jsp name=%3Cscript%3Ealert(1)%3C%2Fscript%3E&ticket_price=-100&flight_id=%22%3E
+POST /payment.jsp pname=Eve&email=e&phone=1

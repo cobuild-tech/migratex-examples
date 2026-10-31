@@ -1,0 +1,3 @@
+# Keep the original sources byte for byte (CRLF line endings): the golden
+# tests compare against pages Jasper builds from them.
+java/** -text

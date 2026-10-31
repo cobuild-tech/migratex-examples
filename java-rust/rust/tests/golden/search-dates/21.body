@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Results - FlyAway Airlines</title>
+    <link rel = "shortcut icon" type = "image/png" href = "img/favicon.png" >
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        body, html {
+            height: 100%;
+            line-height: 1.8;
+        }
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("img/plane.png");
+            min-height: 100%;
+        }
+        .w3-bar .w3-button {
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="/index.jsp" class="w3-bar-item w3-button w3-wide"><img src="img/favicon.png" class="img-fluid" alt="image" width="18%">  FlyAway</a>
+    <div class="w3-right w3-hide-small">
+        <a href="/login.jsp" class="w3-bar-item w3-button"><i class="fa fa-gear"></i> Admin Login</a>
+    </div>
+</div>
+<div class="container">
+    <h2 align="center"><span><strong>Search Results</strong></span></h2>
+    <p align="center"><span><strong>
+        Showing available flights from India to  USA <br>
+        Date of travel : -0001-10-19 (TUESDAY)  <br>
+        No of travellers :  1  <br>
+    </p>
+    <table class="table table-hover table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Flight</th>
+            <th scope="col">Source</th>
+            <th scope="col">Destination</th>
+            <th scope="col">Date</th>
+            <th scope="col">Ticket Price</th>
+            <th scope="col">Select</th>
+        </tr>
+        </thead>
+        <tbody>
+        <br><p align="center"><span><strong>Select a flight</strong></span></p><br>
+        
+        <tr bgcolor="#F5F5F5">
+            <td>AIR India</td>
+            <td>India</td>
+            <td>USA</td>
+            <td>-0001-10-19</td>
+            <td>43000</td>
+            <td>
+                <form action="/booking-details.jsp" method="post">
+                    <input type="hidden" id="name" name="name" value="AIR India">
+                    <input type="hidden" id="ticket_price" name="ticket_price" value="43000">
+                    <input type="hidden" id="flight_id" name="flight_id" value="1">
+                    <input type="submit" class="btn btn-success" value="Book This Flight">
+                </form>
+            </td>
+        </tr>
+        
+        </tbody>
+    </table>
+</div>
+<div class="footer" align="center">
+    FlyAway by Abhinov Gogoi
+</div>
+</body>
+</html>

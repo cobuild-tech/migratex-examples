@@ -1,0 +1,9 @@
+GET /
+GET /index.jsp
+GET /search-portal.jsp
+GET /add-flight.jsp
+GET /show-bookings.jsp
+GET /login.jsp
+POST /index.jsp
+GET /nope.jsp
+GET /nope

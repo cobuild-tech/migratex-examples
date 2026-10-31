@@ -1,0 +1,19 @@
+GET /admin-dashboard.jsp
+GET /change-password.jsp
+POST /change-password passwordEntered=x
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=wrong
+POST /login emailEntered=ADMIN%40flyaway.com&passwordEntered=Admin
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=Admin
+GET /admin-dashboard.jsp
+GET /change-password.jsp
+POST /change-password passwordEntered=
+POST /change-password passwordEntered=s3cret%3Cb%3E
+GET /admin-dashboard.jsp
+GET /show-bookings.jsp
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=wrong
+GET /admin-dashboard.jsp
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=Admin
+POST /login emailEntered=admin%40flyaway.com&passwordEntered=s3cret%3Cb%3E
+GET /login.jsp
+GET /admin-dashboard.jsp
+POST /admin-dashboard.jsp
